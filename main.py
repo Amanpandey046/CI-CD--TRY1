@@ -13,6 +13,8 @@ def prod_calculator1(a,b):
         result = a * b
     return result
 
+def fun():
+    pass
 
 @app.route("/", methods=["GET","POST"])
 def welcome():
